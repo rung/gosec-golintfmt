@@ -1,1 +1,1 @@
-# gosec-golintfmt
+# golint format example (PoC)

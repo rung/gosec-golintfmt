@@ -1,0 +1,8 @@
+# reviewdog.yml
+
+runner:
+  # Go Security Checker https://github.com/securego/gosec
+  gosec:
+    cmd: gosec -quiet -fmt=golint ./...
+    format: golint
+
